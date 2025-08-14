@@ -1,0 +1,37 @@
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>DNI</th>
+      <th>Edad</th>
+      <th>Género</th>
+      <th>Activo</th>
+      <th>Maneja</th>
+      <th>Usa lentes</th>
+      <th>Diabético</th>
+      <th>Otras enfermedades</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of persons">
+      <td>{{ p.name }}</td>
+      <td>{{ p.identification }}</td>
+      <td>{{ p.age }}</td>
+      <td>{{ p.gender }}</td>
+      <td>{{ p.isActive ? 'Si' : 'No' }}</td>
+      <td>{{ p.drives ? 'Si' : 'No' }}</td>
+      <td>{{ p.wearsGlasses ? 'Si' : 'No' }}</td>
+      <td>{{ p.hasDiabetes ? 'Si' : 'No' }}</td>
+      <td>{{ p.otherDiseases || '-' }}</td>
+      <td>
+        <button (click)="editPerson(p.id)">Editar</button>
+        <button (click)="deletePerson(p.id)">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<button routerLink="/persons/new">Crear nueva persona</button>
+
+

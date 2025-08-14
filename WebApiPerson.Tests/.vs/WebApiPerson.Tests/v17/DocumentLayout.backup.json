@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\Repositories\\PersonRepositoryTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\PersonRepositoryTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Commands\\UpdatePersonCommandHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRS\\Commands\\UpdatePersonCommandHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Commands\\CreatePersonCommandHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRS\\Commands\\CreatePersonCommandHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\Controllers\\LoginControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\LoginControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\Controllers\\PersonControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PersonControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Commands\\DeletePersonCommandHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRS\\Commands\\DeletePersonCommandHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Queries\\GetPersonByIdQueryHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRS\\Queries\\GetPersonByIdQueryHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Queries\\GetAllPersonsQueryHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRS\\Queries\\GetAllPersonsQueryHandlerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\Controllers\\LoginControllerTests.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginControllerTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\Controllers\\LoginControllerTests.cs",
+              "RelativeToolTip": "Controllers\\LoginControllerTests.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T19:49:16.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdatePersonCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Commands\\UpdatePersonCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "CQRS\\Commands\\UpdatePersonCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Commands\\UpdatePersonCommandHandlerTests.cs",
+              "RelativeToolTip": "CQRS\\Commands\\UpdatePersonCommandHandlerTests.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAGIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T19:09:14.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\Controllers\\PersonControllerTests.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonControllerTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\Controllers\\PersonControllerTests.cs",
+              "RelativeToolTip": "Controllers\\PersonControllerTests.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAAOsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T19:42:35.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\Repositories\\PersonRepositoryTests.cs",
+              "RelativeDocumentMoniker": "Repositories\\PersonRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\Repositories\\PersonRepositoryTests.cs",
+              "RelativeToolTip": "Repositories\\PersonRepositoryTests.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T18:50:12.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreatePersonCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Commands\\CreatePersonCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "CQRS\\Commands\\CreatePersonCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Commands\\CreatePersonCommandHandlerTests.cs",
+              "RelativeToolTip": "CQRS\\Commands\\CreatePersonCommandHandlerTests.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T19:03:30.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeletePersonCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Commands\\DeletePersonCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "CQRS\\Commands\\DeletePersonCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Commands\\DeletePersonCommandHandlerTests.cs",
+              "RelativeToolTip": "CQRS\\Commands\\DeletePersonCommandHandlerTests.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T19:28:19.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetPersonByIdQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Queries\\GetPersonByIdQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "CQRS\\Queries\\GetPersonByIdQueryHandlerTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Queries\\GetPersonByIdQueryHandlerTests.cs",
+              "RelativeToolTip": "CQRS\\Queries\\GetPersonByIdQueryHandlerTests.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T19:34:45.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllPersonsQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Queries\\GetAllPersonsQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "CQRS\\Queries\\GetAllPersonsQueryHandlerTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ProyectoSeguro\\WebApiPerson.Tests\\CQRS\\Queries\\GetAllPersonsQueryHandlerTests.cs",
+              "RelativeToolTip": "CQRS\\Queries\\GetAllPersonsQueryHandlerTests.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T19:31:55.592Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

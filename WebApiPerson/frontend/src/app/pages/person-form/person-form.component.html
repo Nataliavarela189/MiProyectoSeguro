@@ -1,0 +1,66 @@
+<h2>{{ isEditMode ? 'Editar Persona' : 'Nueva Persona' }}</h2>
+<div class="form-container">
+  <form [formGroup]="personForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label>Nombre completo *</label><br />
+      <input formControlName="name" />
+      <div *ngIf="isFieldInvalid('name')" style="color:red;">El nombre es obligatorio</div>
+    </div>
+
+    <div>
+      <label>Identificación *</label><br />
+      <input formControlName="identification" />
+      <div *ngIf="isFieldInvalid('identification')" style="color:red;">La identificación es obligatoria</div>
+    </div>
+
+    <div>
+      <label>Edad *</label><br />
+      <input type="number" formControlName="age" />
+      <div *ngIf="isFieldInvalid('age')" style="color:red;">Edad debe ser un número positivo</div>
+    </div>
+
+    <div>
+      <label>Género *</label><br />
+      <select formControlName="gender">
+        <option value="">Seleccione</option>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+        <option value="Otro">Otro</option>
+      </select>
+      <div *ngIf="isFieldInvalid('gender')" style="color:red;">El género es obligatorio</div>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" formControlName="isActive" /> Activo
+      </label>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" formControlName="drives" /> ¿Maneja?
+      </label>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" formControlName="wearsGlasses" /> ¿Usa lentes?
+      </label>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" formControlName="hasDiabetes" /> ¿Diabético?
+      </label>
+    </div>
+
+    <div>
+      <label>¿Padece alguna otra enfermedad?</label><br />
+      <input formControlName="otherDiseases" />
+    </div>
+
+    <button type="submit">{{ isEditMode ? 'Guardar cambios' : 'Crear persona' }}</button>
+    <button type="button" (click)="cancel()">Cancelar</button>
+
+  </form>
+</div>
