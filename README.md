@@ -122,4 +122,4 @@ Demostrar habilidades en desarrollo fullstack moderno, aplicando patrones de dis
 
 ## 👩‍💻 Autor
 
-Natalia
+Natalia Varela
